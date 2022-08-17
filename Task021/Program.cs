@@ -14,6 +14,6 @@ Console.Write("Введите Y2:");
 int y2 = int.Parse(Console.ReadLine());
 Console.Write("Введите Z2:");
 int z2 = int.Parse(Console.ReadLine());
-double d = Math.Sqrt(Math.Pow(x1-x2, 2)) + Math.Pow(y1-y2, 2) + Math.Pow(z1-z2, 2);
+double d = Math.Sqrt(Math.Pow(x2-x1, 2) + Math.Pow(y2-y1, 2) + Math.Pow(z2-z1, 2));
 
 Console.WriteLine($"d = {d:f2}"); //f3 - округление до 3 числа.
